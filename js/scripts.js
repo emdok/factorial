@@ -18,9 +18,7 @@ $(document).ready(function() {
     for (var i = factor; i >= 1; i --) {
         total *= i;
       }
-      alert(total);
-      
-
-
+      $(".result").text(total);
   });
+
 });
